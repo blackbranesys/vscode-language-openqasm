@@ -1,0 +1,25 @@
+{
+    "name": "vscode-language-openqasm",
+    "displayName": "vscode-language-openqasm",
+    "description": "OpenQASM language support for VS Code without the garbage.",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.49.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "qasm",
+            "aliases": ["OpenQASM", "qasm"],
+            "extensions": [".qasm"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "qasm",
+            "scopeName": "source.qasm",
+            "path": "./syntaxes/qasm.tmLanguage.json"
+        }]
+    }
+}
