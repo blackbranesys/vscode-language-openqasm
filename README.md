@@ -2,6 +2,8 @@
 
 This is the README for your extension "vscode-language-openqasm". After writing up a brief description, we recommend including the following sections.
 
+Based on [Cross et al, "Open Quantum Assembly Language", v2, July 13, 2017](https://arxiv.org/abs/1707.03429)
+
 ## Features
 
 Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.

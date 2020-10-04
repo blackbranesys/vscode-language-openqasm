@@ -1,8 +1,15 @@
 {
-    "name": "vscode-language-openqasm",
+    "name": "OpenQASM",
     "displayName": "vscode-language-openqasm",
     "description": "OpenQASM language support for VS Code without the garbage.",
+    "publisher": "blackbrane",
     "version": "0.0.1",
+    "preview": true,
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/blackbranesys/vscode-language-openqasm"
+    },
+    "icon": "openqasm-icon.png",
     "engines": {
         "vscode": "^1.49.0"
     },
